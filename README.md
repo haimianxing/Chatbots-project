@@ -1,4 +1,7 @@
 # Chatbots-project
+![1](https://img.shields.io/badge/PRs-welcome-blue)
+![2](https://img.shields.io/badge/torch-1.9.0-blue)
+
 打造一个多功能聊天的机器人
 
 - 情感分类
