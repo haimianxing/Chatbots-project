@@ -158,8 +158,6 @@ pandas==2.2.3
 pandocfilters==1.5.1
 parameterized==0.9.0
 parso==0.8.4
-pdf2zh==1.8.8
-pdfplumber==0.11.4
 pexpect==4.9.0
 pillow==11.0.0
 platformdirs==4.3.6
