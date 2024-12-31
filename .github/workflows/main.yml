@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  build-python:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -19,3 +19,14 @@ jobs:
         run: pip install -r requirement.txt
       - name: Run tests
         run: pytest
+
+  
+  build-docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build Docker image
+        run: docker build -t my-chat-docker:latest .
+      - name: Push Docker image
+        run: docker push my-chat-docker:latest
