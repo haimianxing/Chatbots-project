@@ -51,7 +51,7 @@ RUN python3 -m venv /venv
 # 激活虚拟环境并安装 pip
 ENV PATH="/venv/bin:$PATH"
 RUN python3 -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
-RUN python3 -m pip install -r /mnt/ai-bot-proj/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN python3 -m pip install -r /mnt/ai-bot-proj/requirement.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # 设置时区为北京时间（上海）
 ENV TZ=Asia/Shanghai
