@@ -51,7 +51,6 @@ dataclasses-json==0.6.7
 datasets==3.2.0
 debugpy==1.8.9
 decorator==5.1.1
-deepeval==2.0.9
 deepl==1.20.0
 defusedxml==0.7.1
 Deprecated==1.2.15
@@ -178,7 +177,6 @@ prometheus_client==0.21.1
 prompt_toolkit==3.0.48
 propcache==0.2.1
 proto-plus==1.25.0
-protobuf==4.25.5
 psutil==6.1.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
