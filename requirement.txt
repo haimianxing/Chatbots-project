@@ -268,7 +268,6 @@ terminado==0.18.1
 thinc==8.3.3
 threadpoolctl==3.5.0
 tinycss2==1.4.0
-tokenizers==0.21.0
 tomli==2.2.1
 tomli_w==1.1.0
 tomlkit==0.13.2
