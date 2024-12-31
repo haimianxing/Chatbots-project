@@ -7,7 +7,12 @@ LABEL authors="sd"
 # 将当前目录下的所有文件和目录复制到容器的 /var/www/ 目录中
 COPY ./ /mnt/ai-bot-proj/
 
-RUN python -m pip install --upgrade  pip
+# 安装Python和pip
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip && \
+    rm -rf /var/lib/apt/lists/* \
+
+RUN python -m pip install --upgrade  pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 RUN python -m pip install -r /mnt/ai-bot-proj/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # 设置时区为北京时间（上海）
