@@ -10,7 +10,7 @@ COPY ./ /mnt/ai-bot-proj/
 # 安装Python和pip
 RUN apt-get update && \
     apt-get install -y python3 python3-pip && \
-    rm -rf /var/lib/apt/lists/* \
+    rm -rf /var/lib/apt/lists/*
 
 RUN python -m pip install --upgrade  pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 RUN python -m pip install -r /mnt/ai-bot-proj/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
