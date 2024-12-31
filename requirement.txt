@@ -148,7 +148,6 @@ nbclient==0.10.1
 nbconvert==7.16.4
 nbformat==5.10.4
 nest-asyncio==1.6.0
-networkx==3.4.2
 nltk==3.9.1
 nodeenv==1.9.1
 notebook_shim==0.2.4
