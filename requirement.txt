@@ -44,8 +44,6 @@ coloredlogs==15.0.1
 comm==0.2.2
 confection==0.1.5
 coverage==7.6.9
-crewai==0.86.0
-crewai-tools==0.17.0
 cryptography==43.0.3
 cycler==0.12.1
 cymem==2.0.10
