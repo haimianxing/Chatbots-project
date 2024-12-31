@@ -238,7 +238,6 @@ safehttpx==0.1.6
 safetensors==0.4.5
 schema==0.7.7
 scikit-learn==1.6.0
-scipy==1.14.1
 selenium==4.27.1
 semantic-version==2.10.0
 Send2Trash==1.8.3
