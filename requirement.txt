@@ -35,7 +35,6 @@ certifi==2024.8.30
 chardet==5.2.0
 charset-normalizer==3.4.0
 chroma-hnswlib==0.7.6
-chromadb==0.5.23
 click==8.1.7
 cloudpathlib==0.20.0
 cohere==5.13.4
